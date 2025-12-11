@@ -11,28 +11,21 @@
     <h1>Regisztráció</h1>
 
     <form>
-        <label for="username">Add meg a felhasználóneved: 
-            <input type="text" id="user" name="user"
-            required>
-        </label><br>
+        <label for="username">Add meg a felhasználóneved:</label>
+        <input type="text" id="user" name="user" placeholder="Felhasználónév" required><br>
         <br>
-        <label for="email">Add meg az e-mail címed: 
-            <input type="text" id="email" name="email"
-            required pattern="^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$">
-        </label><br>
+        <label for="email">Add meg az e-mail címed:</label>
+        <input type="text" id="email" name="email" placeholder="E-mail cím" required pattern="^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$"><br>
         <br>
-        <label for="password1">Adj meg egy jelszót: 
-            <input type="password" id="password" name="password">
-        </label><br>
+        <label for="password1">Adj meg egy jelszót:</label>
+        <input type="password" id="password" name="password" placeholder="Jelszó" required><br>
         <br>
-        <label for="password2">Add meg újra a jelszavad: 
-            <input type="password" id="password2" name="password2">
-        </label><br>
+        <label for="password2">Add meg újra a jelszavad:</label>
+        <input type="password" id="password2" name="password2" placeholder="Jelszó mégegyszer" required><br>
         <br>
         <label for="eletkor">Elmúltál 18 éves? 
             <input type="checkbox" id="eletkor" name="eletkor">
         </label><br>
-        <br>
         <input type="submit" value="Beküldés" class="bekuldes">
     </form>
 </body>

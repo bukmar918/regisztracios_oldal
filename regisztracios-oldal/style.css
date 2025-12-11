@@ -1,10 +1,46 @@
+.body
+{
+    max-width: 500px;
+    margin: auto;
+}
+
 h1
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 33px;
 }
 
+label
+{
+    display: block;
+}
 
+form
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select
+{
+    width: 15%;
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select
+{
+    width: 15%;
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 .bekuldes
 {
