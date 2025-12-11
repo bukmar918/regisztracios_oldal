@@ -1,0 +1,4 @@
+username
+email
+password (2-szer) + encrypt
+checkbox 18-as életkorhoz
